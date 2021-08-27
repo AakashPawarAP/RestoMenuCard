@@ -1,0 +1,138 @@
+body{
+    height: 1500px;
+    margin: 10px;
+    padding: 10px;
+    border: groove 10px yellowgreen;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#d1{
+    font-family:monospace;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border: solid red 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-style: oblique;
+    height: 80px;
+    width: 250px;
+    font-size: 16px;
+}
+
+#d2{
+    font-family: monospace;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border: solid red 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-style: oblique;
+    height: 50px;
+    width: 270px;
+    font-size: 16px;
+}
+
+#d3{
+    font-family: monospace;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border: solid red 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-style: oblique;
+    height: 100px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.div1{
+    display: flex;
+    justify-content:space-around;
+}
+
+.circle{
+    margin-top: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 15px;
+    background-color: rgb(23, 177, 169);
+    border: solid grey 5px;
+    border-radius: 50%;
+    text-align:center;
+    font-style: strong;
+    height: 300px;
+    width: 300px;
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+.form{
+    margin-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 13px;
+    border: dashed red 4px;
+    text-align:center;
+    font-style: strong;
+    height: 550px;
+    width: 200px;
+    font-size: 15px;
+    font-weight:bold;
+}
+h2{
+    color:red;
+}
+label{
+    color:red;
+}
+
+.main{
+    margin-left: 43%;
+    position:relative;
+    font-family:monospace;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    background-color: black;
+    border: solid red 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 18px;
+    align-items: center;
+}
+
+.thali{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.b1{
+    background-color:aqua;
+    height: 200px;
+    border: 3px solid green;
+    border-radius: 25px;
+    /* float: left; */
+    background-color: rgb(0, 247, 255);
+    color: purple;
+    text-align: center;
+    margin: 25px;
+    flex: 22%;
+}
+#b1{
+   color: blueviolet;
+   font-weight: bolder;
+   font-size:17px;
+}
+
+
+
